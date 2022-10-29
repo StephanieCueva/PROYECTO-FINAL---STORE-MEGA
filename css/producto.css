@@ -1,0 +1,47 @@
+/*apply css properties to container class*/
+  
+.container1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    text-align: center;
+}
+  
+/*apply css properties to button tag*/
+  
+button {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #FF9138;
+    color: honeydew;
+    padding: 4px;
+    border-color: #FFF;
+}
+  
+/*apply hover effect to button tag*/
+  
+button:hover {
+    background-color: #4A4B4D;
+    color: grey;
+}
+  
+/*apply css properties to h2 tag*/
+  
+h2 {
+    color: #4A4B4D;
+    margin: 0 50px;
+    font-size: 45px;
+}
+
+.card text{
+    text-align: center;
+}
+
+.comprar{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
