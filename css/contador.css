@@ -1,0 +1,155 @@
+.iframeHeader{
+  width: 100%;
+  height: 100%;
+  
+  
+}
+/*apply css properties to container class*/
+  
+.container1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    text-align: center;
+}
+  
+/*apply css properties to button tag*/
+  
+button {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #FF9138;
+    color: honeydew;
+    padding: 4px;
+    border-color: #FFF;
+}
+  
+/*apply hover effect to button tag*/
+  
+button:hover {
+    background-color: #4A4B4D;
+    color: grey;
+}
+  
+/*apply css properties to h2 tag*/
+  
+h2 {
+    color: #4A4B4D;
+    margin: 0 50px;
+    font-size: 45px;
+}
+
+.card text{
+    text-align: center;
+}
+
+.comprar{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+/* mega vendido */
+
+section .megavendido{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 0;
+  }
+  section h2{
+    width: 100%;
+    color: rgb(24, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+ 
+  .estilo-c{
+    font-family: sans-serif;
+    width: 350px;
+    margin-top: 30px;
+  }
+  .estilo-c .img-container{
+    overflow: hidden;
+    height: 350px;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 0px;
+  }
+  .estilo-c .img-container img{
+    width: 105%;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  .estilo-c:hover .img-container img{
+    transform: scale(1.2);
+  }
+  .estilo-c .img-container .promo{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    font-size: 20px;
+    background: rgb(250, 136, 29);
+    padding: 15px;
+    color: #fff;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+  }
+  .estilo-c .info-container{
+    display: block;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: transparent;
+    height: 320px;
+  }
+  .estilo-c .info-container h3{
+    margin: 0;
+  }
+  .estilo-c .info-container h3,
+  .estilo-c .info-container strong,
+  .estilo-c .info-container span{
+    padding: 5px 15px;
+    width: 100%;
+  }
+  .estilo-c .add-cart{
+    margin-top: 2px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff9138;
+    padding: 15px;
+    border-radius: 25px;
+    
+  }
+  .estilo-c .add-cart:hover{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+  }
+
+  .lista{
+    text-align: left;
+  }
+
+  .rating{
+    display: block;
+  }
+
+  .rating-div{
+    margin-bottom: 15px;
+  }
+  
+  .btn-access{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 30px;
+    border-left: 3px solid #ff9138;
+    border-right: 3px solid #ff9138;
+    margin-bottom: 50px;
+  }

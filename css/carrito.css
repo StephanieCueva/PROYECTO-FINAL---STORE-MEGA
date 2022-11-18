@@ -1,0 +1,30 @@
+.p-flex{
+    display: flex;
+}
+
+.area-total{
+    width: 100%;
+}
+@media(min-width: 1030px){
+    .r-flex{
+        display: flex;
+    }
+    .area-total{
+        width: 100% !important;
+        margin: 0 auto;
+    }
+    .centrartodo{
+        background-color: black;
+    }
+
+    .centrando{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 1030px){
+    .titulo_producto{
+        display: inline;
+        margin: 0 auto;
+    }
+}

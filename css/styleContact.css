@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Quicksand", sans-serif;
+  padding: 0 1.5em;
+}
+
+.image {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+.contact-wrapper {
+  box-shadow: 0 0 10px 0 rgb(167, 167, 167);
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  background: rgb(250, 247, 247);
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form .block {
+  grid-column: 1 / 3;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #ff9138;
+  outline: 0;
+}
+
+.contact-form form button {
+  background: #ff9138;
+  color: #fff;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #ee832b;
+  transition: background-color 1s ease-out;
+  outline: 0;
+}
+
+.contact-info {
+  background: #ff9138;
+  color: #fff;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  padding: 0.3em;
+}
+
+@media (min-width: 700px) {
+  body {
+    padding: 0 4rem;
+  }
+
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .contact-wrapper > * {
+    padding: 2em;
+  }
+
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    padding: 1em;
+    text-align: left;
+  }
+}
+
+input[type="text"]:focus {
+  background: #fff5ec;
+  transition: background-color 1s ease-out;
+  outline: 0;
+  border-radius: 5px;
+}
+
+input[type="email"]:focus {
+  background: #fff5ec;
+  transition: background-color 1s ease-out;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.contact-form form .block textarea:focus {
+  background: #fff5ec;
+  transition: background-color 1s ease-out;
+  outline: 0;
+  border-radius: 5px;
+}
